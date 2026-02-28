@@ -1,0 +1,38 @@
+1. Big Picture
+
+Socho ek pipeline hai jisme bachche move karte hain:
+
+1️⃣ CBP → bachche pakadti hai
+2️⃣ HHS → unko care, shelter, treatment deta hai
+3️⃣ Sponsor → bachche discharge ho jaate hain
+
+👉 Problem ye hai:
+
+Kitne bachche aa rahe?
+Kitne system ke andar phase hue?
+Kitne nikal rahe?
+System overload to nahi ho raha?
+
+hme exact yahi analytics banana wala hai.
+
+2. Actual Goal (Simple Words)
+
+Tu ML model nahi bana raha abhi ❌
+Tu SYSTEM HEALTH MONITOR bana raha hai ✅
+
+Matlab:
+System overloaded hai ya nahi?
+Future mein overload hone ke chances?
+Kab relief milta hai?
+Kab pressure zyada hota hai?
+
+3. Dataset ko Bacche jaise Samjho
+
+| Column                          | Matlab                                  |
+| ------------------------------- | --------------------------------------- |
+| Date                            | Aaj ka din                              |
+| Children apprehended (CBP)      | Aaj kitne naye bachche aaye             |
+| Children in CBP custody         | CBP ke paas total kitne bachche hain    |
+| Children transferred out of CBP | Aaj CBP se HHS ko kitne gaye            |
+| Children in HHS care            | HHS ke paas kitne bachche hain          |
+| Children discharged from HHS    | Aaj kitne bachche sponsors ke paas gaye |
