@@ -145,13 +145,18 @@ Capacity stress visualization
 Net intake pressure tracking
 
 
-🏗️ Project Architecture
+## 🏗️ Project Architecture
 
+```
 uac-care-capacity-analytics/
 │
 ├── data/
 │   ├── raw/
+│   │   └── uac_daily_data.csv
+│   │
 │   └── processed/
+│       ├── validated_uac_data.csv
+│       └── clean_uac_data.csv
 │
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
@@ -169,7 +174,9 @@ uac-care-capacity-analytics/
 ├── app/
 │   └── streamlit_app.py
 │
+├── requirements.txt
 └── README.md
+```
 
 ⚙️ Installation
 
