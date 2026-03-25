@@ -219,3 +219,4 @@ Stress window detection provides policy-level early warning signals
 
 Kunal Kashyap
 Machine Learning Engineering
+Research Paper : https://zenodo.org/records/19152300
